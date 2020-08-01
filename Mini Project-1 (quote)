@@ -1,0 +1,42 @@
+<!--Generated from HTML Code Play-->
+<!DOCTYPE html>
+<html>
+
+<head>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#btn{
+color:tomato;
+font-size:50px;
+background-color:pink;
+}
+#h1{
+border:solid 20px green;
+font-size:50px;
+padding:5px;
+margin:5px;
+color:purple;
+background-color:yellow;
+outline:dashed orange 5px; 
+}
+</style>
+<script>
+var arr=["Your limitation—it's only your imagination","Push yourself, because no one else is going to do it for you","Sometimes later becomes never. ..." ,"Great things never come from comfort zones.Dream it. ..." ,"Success doesn't just find you. ... ","The harder you work for something","the greater you'll feel when you achieve it.","Dream bigger. ", "You must be the change you wish to see in the world. — Gandhi. ..." ,"Everybody is a genius. ... ","A life spent making mistakes is not only more honorable, but more useful than a life spent doing nothing.” — George Bernhard Shaw. ...", "He who fears he will suffer, already suffers because he fears.” — Michel De Montaigne."] 
+function quote(){
+var a=arr[Math.floor(Math.random()*arr.length)];
+const h=document.getElementById('h1');
+h.innerText=a
+}
+</script>
+</head>
+<body>
+<h1 id="h1"></h1>
+<button id="btn" type="button" onclick="quote();">click me to get quote</button>
+
+</body>
+
+</html>
+<!--Generated from HTML Code Play.
+ More application
+ Android Code Play
+ SQL Code Play-->
